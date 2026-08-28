@@ -19,11 +19,7 @@ document.getElementById("registrationForm").addEventListener("submit", function(
         return;
     }
 
-    if (email === "") {
-        message.style.color = "red";
-        message.textContent = "Please enter your email.";
-        return;
-    }
+
 
     if (mobile === "") {
         message.style.color = "red";
